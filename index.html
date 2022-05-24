@@ -5,10 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-      
+      <div class="mobile-container">
+          <header>
+              <input type="text">
+              <button id="search"><i class="fas fa-search"></i></button>
+          </header>
+          <div class="fav-container">
+              <h3>Favorite Meals</h3>
+              <ul class="fav-meals">
+                  <li><img src="images/pasta.jpg" alt=""><span>Pasta</span></li>
+                  <li><img src="images/ratatouile.jpg" alt=""><span>Ratatouille</span></li>
+                  <li><img src="images/salad.jpg" alt=""><span>Salad</span></li>
+                  <li><img src="images/sushi.jpg" alt=""><span>Sushi</span></li>
+              </ul>
+          </div>
+          <div class="meals">
+              <div class="meal">
+                  <div class="meal-header">
+                    <span class="random">
+                        Random Recipe
+                    </span>
+                      <img src="images/sandwich.jpg" alt="">
+                  </div>
+                  <div class="meal-body">
+                      <h4>Tropical Sandwich</h4>
+                      <button class="fav-btn">
+                          <i class="fas fa-heart"></i>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
 </body>
 </html>
